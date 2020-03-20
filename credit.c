@@ -80,7 +80,7 @@ string getTypeOfCC(long potentialCCnum)
         }
     }
 
-    // VISA has 13 or 16 digits, starting with 34 or 37
+    // VISA has 13 or 16 digits, starting with 4
     if (numdigits == 13 || numdigits == 16)
     {
         if (digit1 == 4)
